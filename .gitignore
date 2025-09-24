@@ -1,0 +1,29 @@
+# ROS 2 workspace generated folders
+build/
+install/
+log/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+
+# CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Colcon & ROS 2 metadata
+.colcon/
+rosdep/
+
+# VSCode / IDE configs (optional)
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db

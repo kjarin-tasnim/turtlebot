@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<robot name="trobot" xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <gazebo reference="wheel_right">
+        <m1>100000000000000.0</m1>
+        <m2>100000000000000.0</m2>
+        <kp>1000000000000.0</kp>
+        <kd>10.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+        <fdir>1 0 0</fdir>
+    </gazebo>
+
+    <gazebo reference="wheel_left">
+        <m1>100000000000000.0</m1>
+        <m2>100000000000000.0</m2>
+        <kp>1000000000000.0</kp>
+        <kd>10.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+        <fdir>1 0 0</fdir>
+    </gazebo>
+
+    <gazebo reference="caster_front">
+        <m1>0.1</m1>
+        <m2>0.1</m2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+    </gazebo>
+
+    <gazebo reference="caster_rear">
+        <m1>0.1</m1>
+        <m2>0.1</m2>
+        <kp>1000000.0</kp>
+        <kd>100.0</kd>
+        <minDepth>0.001</minDepth>
+        <maxVel>0.1</maxVel>
+    </gazebo>
+
+
+</robot>
